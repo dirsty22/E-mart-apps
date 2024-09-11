@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020246417236",
+    "project_id": "e-medicine-8ee78",
+    "storage_bucket": "e-medicine-8ee78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020246417236:android:182eca5996fab1e1feb2c1",
+        "android_client_info": {
+          "package_name": "com.abc.emedicine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGBSwk8bcQzawh6f4ugJpGfUTU7RrWldc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

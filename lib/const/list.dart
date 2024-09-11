@@ -1,5 +1,6 @@
-import 'package:ecommerce_peoject/const/consts.dart';
-import 'package:ecommerce_peoject/const/images.dart';
+import 'package:e_medicine/const/consts.dart';
+import 'package:e_medicine/const/images.dart';
+import 'package:e_medicine/views/cart_screen/payment_method.dart';
 
 const socialIconList = [
   icFacebookLogo,
@@ -25,3 +26,6 @@ const categoryImages = [imgFc1,imgFc2,imgFc3,imgFc4,imgFc5,imgFc6,imgFc7,imgFc8,
 const itemDetailsButtonsList =[video,reviews,privacyPolicy,returnpolicy,supportPolicy];
 const profieButtonList=[orders,wishlist,messages];
 const profileButtonIcon =[icOrder,icOrder,icMessages];
+
+const paymentMethodImg = [imgBkash,imgRocket,imgCod];
+const paymentMethods = [bkash,rocket,cod];

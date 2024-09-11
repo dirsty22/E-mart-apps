@@ -1,8 +1,8 @@
-import 'package:ecommerce_peoject/const/list.dart';
-import 'package:ecommerce_peoject/views/component/featured_button.dart';
-import 'package:ecommerce_peoject/widgets_common/home_button.dart';
+import 'package:e_medicine/const/list.dart';
+import 'package:e_medicine/views/component/featured_button.dart';
+import 'package:e_medicine/widgets_common/home_button.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_peoject/const/consts.dart';
+import 'package:e_medicine/const/consts.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

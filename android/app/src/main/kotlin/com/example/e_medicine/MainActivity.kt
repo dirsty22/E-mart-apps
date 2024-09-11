@@ -1,4 +1,4 @@
-package com.example.ecommerce_peoject
+package com.example.e_medicine
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,12 +1,13 @@
-import 'package:ecommerce_peoject/const/consts.dart';
+import 'package:e_medicine/const/consts.dart';
 
-Widget customTextFild({String? title, String? hint , controller}){
+Widget customTextFild({String? title, String? hint , controller, isPass}){
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start ,
     children: [
       title!.text.color(redColor).fontFamily(semibold).size(16).make(),
       5.heightBox,
       TextFormField(
+        obscureText: isPass,
         controller: controller,
         decoration: InputDecoration(
           hintStyle: TextStyle(fontFamily:semibold,color: fontGrey ),

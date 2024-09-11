@@ -1,6 +1,6 @@
 {
-    "name": "ecommerce_peoject",
-    "short_name": "ecommerce_peoject",
+    "name": "e_medicine",
+    "short_name": "e_medicine",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

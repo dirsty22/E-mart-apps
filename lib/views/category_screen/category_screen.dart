@@ -1,8 +1,9 @@
-import 'package:ecommerce_peoject/const/list.dart';
-import 'package:ecommerce_peoject/views/category_screen/category_details.dart';
-import 'package:ecommerce_peoject/widgets_common/bg_widgwt.dart';
+import 'package:e_medicine/const/list.dart';
+import 'package:e_medicine/controller/product_controller.dart';
+import 'package:e_medicine/views/category_screen/category_details.dart';
+import 'package:e_medicine/widgets_common/bg_widgwt.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_peoject/const/consts.dart';
+import 'package:e_medicine/const/consts.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
@@ -11,6 +12,7 @@ class CategoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var controller = Get.put(ProductController());
     return bgWidget(
         child: Container(
       child: Column(
@@ -55,6 +57,7 @@ class CategoryScreen extends StatelessWidget {
                         .outerShadowSm
                         .make()
                         .onTap(() {
+                          controller.getSubCategories(categoriesList[index]);
                       Get.to(() => CategoryDetails(
                             title: categoriesList[index],
                           ));

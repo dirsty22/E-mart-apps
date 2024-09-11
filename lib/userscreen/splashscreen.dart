@@ -1,8 +1,9 @@
-import 'package:ecommerce_peoject/const/colors.dart';
-import 'package:ecommerce_peoject/const/consts.dart';
-import 'package:ecommerce_peoject/const/images.dart';
-import 'package:ecommerce_peoject/userscreen/login_screen.dart';
-import 'package:ecommerce_peoject/widgets_common/applogo.dart';
+import 'package:e_medicine/const/consts.dart';
+import 'package:e_medicine/const/images.dart';
+import 'package:e_medicine/userscreen/login_screen.dart';
+import 'package:e_medicine/views/home_screen/home.dart';
+import 'package:e_medicine/widgets_common/applogo.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +18,15 @@ class _spalashscreentState extends State<spalashscreen> {
 
   changeScreen(){
      Future.delayed(Duration(seconds: 3), () {
-      Get.to(()=> const loginscreen());
+      // Get.to(()=> const loginscreen());
+      auth.authStateChanges().listen((User? user){
+        if(user == null && mounted){
+          Get.to(()=> const loginscreen());
+        }else{
+          Get.to(()=> const Home());
+        }
+        
+      });
 
     });
   }

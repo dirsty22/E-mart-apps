@@ -1,4 +1,4 @@
-import 'package:ecommerce_peoject/const/consts.dart';
+import 'package:e_medicine/const/consts.dart';
 
 Widget featuredButton ({String? title , icon}){
   return Row(

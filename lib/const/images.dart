@@ -127,4 +127,10 @@ const imgStripe = "assets/images/stripe.png";
 const imgTwocheckout = "assets/images/twocheckout.png";
 const imgVogue = "assets/images/vogue.png";
 const imgWallet = "assets/images/wallet.png";
+const imgBkash = "assets/images/bkash.png";
+const imgRocket = "assets/images/rocket.png";
+
+
+
+
 

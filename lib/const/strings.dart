@@ -7,13 +7,15 @@ const password = "password";
 const passwordHint = "******";
 const retypePassword = "Retype Password";
 const name = "Name";
-const nameHint = "Bristy islam";
+const nameHint = "Your Name";
 const forgetPass = "Forget Password";
 const login = "Log in";
 const signup = "Sign up";
 const cresteNewAccount = "or, create a new account";
 const loginWith = " log in with";
 const privacyPolicy = "Privacy Policy";
+const loggedin = "Logged in successfully" ;
+const loggedout = "Logged out successfully" ;
 const termAndCond = "Term and Conditions";
 const alreadyHaveAccount = "Already have an account? ";
 
@@ -55,4 +57,7 @@ const video = "Video",
     productsyoumaylike = "Products you may also like";
 
 
-const wishlist ="My Wishlist", orders="My Orders" ,messages ="Messages";
+const wishlist ="My Wishlist", orders="My Orders" ,messages ="Messages" , oldpass = "Old Password" ,newpass = "New Password";
+
+const bkash = "Bkash" , rocket = "Rocket" ,cod = "Cash on delivery";
+
